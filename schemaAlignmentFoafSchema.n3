@@ -1,0 +1,1 @@
+{?s a <http://xmlns.com/foaf/0.1/Person> . } => {?s a <https://schema.org/Person> . } . 
