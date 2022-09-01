@@ -1,0 +1,82 @@
+@prefix email: <http://example.com/email#>.
+@prefix solidChat: <http://www.semanticweb.org/warre/ontologies/2022/3/solid-chat-ontology#>.
+
+{
+    ?s a emailcontact.
+}
+=>
+{
+    ?s a solidChatChat.
+}.
+
+{
+    ?s a emailcontact_list.
+}
+=>
+{
+    ?s a solidChatContactList.
+}.
+
+{
+    ?s a emailemail.
+}
+=>
+{
+    ?s a solidChatMessage.
+}.
+
+{
+    ?s a emailthread.
+}
+=>
+{
+    ?s a solidChatChat.
+}.
+
+{
+    ?s email:email_timestamp ?o.
+}
+=>
+{
+    ?s solidChattimestamp ?o.
+}.
+
+{
+    ?s emailthread_name ?o.
+}
+=>
+{
+    ?s solidChatname ?o.
+}.
+
+{
+    ?s emailemail_body ?o.
+}
+=>
+{
+    ?s solidChattext ?o.
+}.
+
+{
+    ?s emailsame_thread_as ?o.
+}
+=>
+{
+    ?s solidChatsameChatAs ?o.
+}.
+
+{
+    ?s emailreply_to ?o.
+}
+=>
+{
+    ?s solidChatisReplyTo ?o.
+}.
+
+{
+    ?s emailhas_contact ?o.
+}
+=>
+{
+    ?s solidChathasContact ?o.
+}.
