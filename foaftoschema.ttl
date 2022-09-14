@@ -2,17 +2,9 @@
 @prefix schema: <https://schema.org/>.
 
 {
-    ?s a foaf:Person .
+    ?s a foaf:Person.
 }
 =>
 {
-    ?s a schema:Person . 
-} . 
-
-{
-    ?s a schema:Person . 
-}
-=>
-{
-    ?s a foaf:Person .
-} . 
+    ?s a schema:Person.
+}.
