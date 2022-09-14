@@ -1,6 +1,8 @@
+
+tzefzefsfdfes
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix schema: <https://schema.org/>.
-tzefzefsfdfes
+
 {
     ?s a foaf:Person.
 }
