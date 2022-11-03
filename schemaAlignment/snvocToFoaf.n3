@@ -1,0 +1,13 @@
+@prefix snvoc: <http://localhost:3000/www.ldbc.eu/ldbc_socialnet/1.0/vocabulary/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+{
+    ?x snvoc:knows ?n.
+    ?n snvoc:hasPerson ?y.
+}
+=>
+{
+    ?x a foaf:Person.
+    ?y a foaf:Person.
+    ?x foaf:knows ?y.
+}.
