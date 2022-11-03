@@ -18,33 +18,33 @@
 }.
 
 {
-    ?x snvoc:firstName ?v .
+    ?x snvoc:firstName ?v.
 }
 =>
 {
-    ?x foaf:firstName ?v .
+    ?x foaf:firstName ?v.
 }.
 
 {
-    ?x snvoc:gender ?v .
+    ?x snvoc:gender ?v.
 }
 =>
 {
-    ?x foaf:gender ?v .
+    ?x foaf:gender ?v.
 }.
 
 {
-    ?x snvoc:hasInterest ?v .
+    ?x snvoc:hasInterest ?v.
 }
 =>
 {
-    ?x foaf:interest ?v .
+    ?x foaf:interest ?v.
 }.
 
 {
-    ?x snvoc:lastName ?v .
+    ?x snvoc:lastName ?v.
 }
 =>
 {
-    ?x foaf:family_name ?v .
+    ?x foaf:family_name ?v.
 }.
