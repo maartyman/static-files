@@ -2,10 +2,10 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 {
-    ?x snvoc:knows ?n.
-    ?n snvoc:hasPerson ?y.
+    ?x snvoc:knows ?n .
+    ?n snvoc:hasPerson ?y
 }
 =>
 {
-    ?x foaf:knows ?y.
+    ?x foaf:knows ?y .
 }.
