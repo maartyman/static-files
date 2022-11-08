@@ -2,6 +2,22 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 {
+    ?x a snvoc:Person.
+}
+=>
+{
+    ?x a foaf:Person.
+}.
+
+{
+    ?x snvoc:birthday ?v.
+}
+=>
+{
+    ?x foaf:birthday ?v.
+}.
+
+{
     ?x snvoc:firstName ?v.
 }
 =>
@@ -10,9 +26,60 @@
 }.
 
 {
-    ?x a snvoc:Person.
+    ?x snvoc:gender ?v.
 }
 =>
 {
-    ?x a foaf:Person.
+    ?x foaf:gender ?v.
+}.
+
+{
+    ?x snvoc:hasInterest ?v.
+}
+=>
+{
+    ?x foaf:interest ?v.
+}.
+
+{
+    ?x snvoc:lastName ?v.
+}
+=>
+{
+    ?x foaf:family_name ?v.
+}.
+
+{
+    ?x snvoc:email ?v.
+}
+=>
+{
+    ?x foaf:mbox ?v.
+}.
+
+{
+    ?x snvoc:knows ?n.
+    ?n snvoc:hasPerson ?y.
+}
+=>
+{
+    ?x foaf:knows ?y.
+}.
+
+{
+    ?x snvoc:studyAt ?n.
+    ?n snvoc:hasOrganisation ?y.
+}
+=>
+{
+    ?x foaf:schoolHomepage ?y.
+}.
+
+{
+    ?x snvoc:workAt ?n.
+    ?n snvoc:hasOrganisation ?y.
+}
+=>
+{
+    ?x foaf:workInfoHomepage ?y.
 }.
