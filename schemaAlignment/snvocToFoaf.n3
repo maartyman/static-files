@@ -2,6 +2,14 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 {
+    ?x snvoc:gender ?v.
+}
+=>
+{
+    ?x foaf:gender ?v.
+}.
+
+{
     ?x a snvoc:Person.
 }
 =>
@@ -23,14 +31,6 @@
 =>
 {
     ?x foaf:firstName ?v.
-}.
-
-{
-    ?x snvoc:gender ?v.
-}
-=>
-{
-    ?x foaf:gender ?v.
 }.
 
 {
