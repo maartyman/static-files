@@ -8,3 +8,11 @@
 {
     ?x foaf:firstName ?v.
 }.
+
+{
+    ?x a snvoc:Person.
+}
+=>
+{
+    ?x a foaf:Person.
+}.
