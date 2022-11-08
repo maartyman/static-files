@@ -46,7 +46,7 @@
 }
 =>
 {
-    ?x foaf:family_name ?v.
+    ?x foaf:surname ?v.
 }.
 
 {
