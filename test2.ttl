@@ -1,3 +1,3 @@
-@prefix meat: <http://example.com/>.
+@prefix meat: <http://example.com/> .
 
-meat:s1new meat:p1new meat:o1new.
+meat:s1new meat:p1new meat:o1new .
